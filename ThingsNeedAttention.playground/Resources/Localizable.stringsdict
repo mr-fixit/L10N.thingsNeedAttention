@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>needs.3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@variable@</string>
+		<key>variable</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Error - Use needs.1</string>
+			<key>one</key>
+			<string>Error - Use needs.2</string>
+			<key>other</key>
+			<string>%2$@ and %1$d others need attention</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
